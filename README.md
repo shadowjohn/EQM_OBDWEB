@@ -92,6 +92,16 @@ JDY08 Firmware source codes to receive BLE VC601 TPMS Sensor broadcasts and pres
 
 https://github.com/EQMOD/EQM_OBDWEB/tree/main/CC254x_TPMS_BATMON/Custom%20JDY08-CC2541%20Firmware%20TPMS%20BATMON/SDK/BLE-CC254x-1.4.0/Projects/ble/TPMS_OBD
 
+COMPILING and FLASHING
+
+This version of the program works best with a ESP32-D0WD-V3 (revision 3) 16MB
+with the following compile settings;
+
+<img width="960" alt="image" src="https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/d99bd190-b4f2-46fa-9959-13d611277ca3">
+
+Formatting and Flashing the SPIFF Memory is initiated by checking if a detected/attached SD Card is without a "lock.file" inside;
+
+<img width="1920" alt="image" src="https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/af0fd553-99ad-45f9-a32c-b54a19f7b46d">
 
 
 
