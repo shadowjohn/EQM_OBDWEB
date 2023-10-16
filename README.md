@@ -104,6 +104,28 @@ Formatting and Flashing the SPIFF Memory is initiated by checking if a detected/
 <img width="1920" alt="image" src="https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/af0fd553-99ad-45f9-a32c-b54a19f7b46d">
 
 
+ON-SITE DEBUGGING
+
+A portable flasher and Serial Console Monitoring port in one as implemented on the EQM_OBDWEB Dongle. The idea here is we use the same 6 pin port to flash new code on the ESP32 inside the obd  dongle OR use it as Serial Console port by plugging in a JDY-16 Bluetooth UART module and connect it to a mobile app BLE Serial Terminal  and monitor the ESP32 activity through a mobile phone;
+
+![image](https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/fd193d7f-0f1a-49eb-bc8a-70d599164461)
+
+JDY-16 Module for Bluetooth UART Console Port Monitoring
+
+![image](https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/828c9ec3-278d-4989-b80c-19fa451150d2)
+
+Connection Diagram
+
+![image](https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/f9dcf423-b83c-4fc4-968b-96162d01d422)
+
+Mobile APP with the Serial Console Data
+
+![image](https://github.com/EQMOD/EQM_OBDWEB/assets/29789200/b5c5d805-cb0c-42b5-a1af-8e539e9dc70a)
+
+
+
+
+
 
 
 
